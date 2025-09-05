@@ -1,2 +1,2 @@
-# c--Basics
-//Basic C programs for practice //Starting my coding journey//
+My journey starts from here 🚀  
+This repository contains basic C programs for practice and learning.
