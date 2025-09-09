@@ -9,22 +9,22 @@ int main(){
    {
      if (number % 2 == 0)
      {
-       printf ("Number is positive \nNumber is Even");
+       printf (" Number is positive \n Number is Even");
      }
      else
       {
-         printf ("Number is positive \nNumber is odd");
+         printf (" Number is positive \n Number is odd");
       }
     }
    else if (number < 0 )
    {
       if ( number % 2 == 0 )
         {
-          printf("Number is negative \nNumber is even");
+          printf(" Number is negative \n Number is even");
         }
       else 
         {
-            printf ("Number is negative \nNumber is odd");
+            printf (" Number is negative \n Number is odd");
         }
     } 
    else {
