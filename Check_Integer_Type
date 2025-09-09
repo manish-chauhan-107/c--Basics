@@ -7,29 +7,28 @@ int main(){
 
    if (number > 0) 
    {
-    if (number % 2 == 0)
-    {
-    printf ("Number is positive \n Number is Even");
-    }
-    else
+     if (number % 2 == 0)
      {
-        printf ("Number is positive \n Number is odd");
+       printf ("Number is positive \nNumber is Even");
      }
+     else
+      {
+         printf ("Number is positive \nNumber is odd");
+      }
     }
-    else if (number < 0 )
-    {
-        if ( number % 2 == 0 )
+   else if (number < 0 )
+   {
+      if ( number % 2 == 0 )
         {
-            printf("Number is negative \n Number is even");
+          printf("Number is negative \nNumber is even");
         }
-        else 
+      else 
         {
-            printf ("Numb er is negative \n Number is odd");
+            printf ("Number is negative \nNumber is odd");
         }
     } 
-    else (number == 0 );
-    {
-        printf ("Number is nither positive nor negative ");
-    }
+   else {
+    printf ("Number is nither positive nor negative ");
+   }
     return 0;
 }
