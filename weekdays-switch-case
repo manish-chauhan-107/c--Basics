@@ -7,25 +7,25 @@ int main () {
     switch (number) 
     {
         case 1 : printf (" MONDAY ");
-        break ;
+                 break ;
     
         case 2 : printf (" TUESDAY ");
-        break ;
+                 break ;
 
         case 3 : printf (" WEDNESDAY ");
-        break ;
+                 break ;
 
         case 4 : printf (" THRUSDAY ");
-        break ;
+                 break ;
 
         case 5 : printf (" FRIDAY ");
-        break ;
+                 break ;
 
         case 6 : printf (" SATURDAY ");
-        break ;
+                 break ;
 
         case 7 : printf (" SUNDAY ");
-        break ;
+                 break ;
         
         default : printf ("Invalid number for a day in a week") ;
 
