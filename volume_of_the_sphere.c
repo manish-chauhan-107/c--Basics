@@ -1,4 +1,4 @@
-//volume of a sphere 
+//volume of a sphere with given radius
 #include<stdio.h>
 #include<math.h>
 int main()
