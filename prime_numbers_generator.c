@@ -6,10 +6,10 @@ int main ()
     printf ("Enter number: ");
     scanf ("%d" , &a );
     for( i=2; i<=a ; i=i+1 )
-    {           
+    { 
+         isprime=1;
         for (z=2 ; z<i ; z=z+1)
         {   
-            isprime=1;
             if (i%z==0)
             {
             isprime=0;
