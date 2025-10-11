@@ -42,7 +42,7 @@ void UP(){
     printf("Prayagraj (Allahabad) Triveni Sangam \n");
     printf("Vindhyacha \n");
     printf("Agra Taj Mahal & Agra Fort \n");
-    printf("Cost of trip per person for 6 days = 16000/Rs");
+    printf("Cost of trip per person for 6 days = 17000/Rs");
 }
 void UK(){
     printf("place for visit \n");
