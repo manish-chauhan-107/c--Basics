@@ -1,5 +1,4 @@
 #include<stdio.h>
-// multiplication of two number 
 int main(){
     float number1, number2 ;
 
@@ -13,3 +12,4 @@ int main(){
     printf("Product =  %.2f\n",multiply);
     return 0;
 }
+
