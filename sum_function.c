@@ -1,6 +1,5 @@
 #include<stdio.h>
-int sum (int x , int y);
-
+int sum (int x , int y); // function name
 int main ()
 {
     int a , b ;
@@ -13,6 +12,7 @@ int main ()
     printf("sum is : %d" , s );
     return 0;
 }
+//function deceleration
 int sum (int x ,int y ){
     return x + y ;
 }
