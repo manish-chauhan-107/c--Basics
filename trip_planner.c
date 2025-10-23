@@ -1,8 +1,8 @@
 #include<stdio.h>
 #include<string.h>
 void gujrat();
-void UP();
-void UK();
+void UP();   //up for uttarpradesh
+void UK();  //for uttarakhand
 
 int main(){
     char state[9]; 
