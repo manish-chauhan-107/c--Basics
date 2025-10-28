@@ -10,8 +10,9 @@ int main (){
     }
     for (j=0 ; j<6 ; j++ )
     {
-        c[j] = a[j];
+        c[i+j] = b[j];
     }
+    
     printf("array Merged:");
     for (int k = 0; k < 11; k++)
     {
