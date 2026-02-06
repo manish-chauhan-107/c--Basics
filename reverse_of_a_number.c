@@ -4,7 +4,8 @@ int main(){
     int a ;
     printf("Enter number: ");
     scanf("%d" , &a);
-    reverse(&a);
+    int number = reverse(&a);
+     printf("%d" ,number);
     return 0;
 }
 int reverse(int *x)
@@ -17,6 +18,5 @@ int reverse(int *x)
      num = (num * 10)+ r;
      *x = *x/10;
   }
-  printf("%d" , num);
   return num ;   
 }
